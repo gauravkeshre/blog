@@ -1,50 +1,31 @@
-# Site
-name: "hxloop"
+title: hxloop
 description: "A set of articles from my day to day findings."
 meta_description: "ios, xcode, swift, articles. tips and tricks."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
-baseurl: ''
+
+baseurl: ""
+url: www.hxloop.com
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: hxloop
+   twitter: hxl00p
+   email: gyard01@gmail.com
+
 google_analytics: 'UA-102071010-4'
 # disqus: 'demowebsite'
 # mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-
-# Authors
-authors:
-  sal:
-    name: Gaurav
-    display_name: GK
-    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: gaurav.keshre+hxloop@gmail.com.com
-    web: https://www.hxloop.com
-    twitter: https://twitter.com/hxl00p
-    description: "A set of articles on iOS, Swift, Xcode and other things"
-  john:
-    name: Gaurav
-    display_name: GK
-    # gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: gaurav.keshre+hxloop@gmail.com.com
-    web: https://www.hxloop.com
-    twitter: https://twitter.com/gauravkeshre
-    description: "I develop iOS Apps. Swift | ObjC"
-
-# Plugins
-plugins: 
-  - jekyll-paginate
-  - jekyll-archives
-    
-# Archives
-jekyll-archives:
-  enabled:
-    - categories
-  layout: archive
-  permalinks:
-    category: '/category/:name/'
-    
-# Pagination 
-paginate: 6
-paginate_path: /page:num/
-    
-# Other
-markdown: kramdown
-highlighter: rouge
