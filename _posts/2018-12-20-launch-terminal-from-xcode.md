@@ -1,5 +1,4 @@
 
-# Launch Terminal and open Xcode project directory in that
 
 ##### Add New Behavior
 1. Launch Xcode > Preferences > Behaviors
@@ -18,10 +17,11 @@
 ##### Done
 
 
-This script
-1. takes the current project path.
+
+What this script does.
+1. Takes the current project path.
 2. Launches Terminal.
-3. CD to current project path.
+3. `cd` to current project path.
 
 ```bash
 #!/bin/sh
