@@ -1,32 +1,32 @@
 # Site
-name: "Mediumish"
-description: "Jekyll Template for Blogging"
-meta_description: "Jekyll template, Medium styled, free for bloggers."
+name: "hxloop"
+description: "A set of articles from my day to day findings."
+meta_description: "ios, xcode, swift, articles. tips and tricks."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+baseurl: ''
+google_analytics: 'UA-102071010-4'
+# disqus: 'demowebsite'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    name: Gaurav
+    display_name: GK
+    # gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: gaurav.keshre+hxloop@gmail.com.com
+    web: https://www.hxloop.com
+    twitter: https://twitter.com/hxl00p
+    description: "A set of articles on iOS, Swift, Xcode and other things"
   john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+    name: Gaurav
+    display_name: GK
+    # gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: gaurav.keshre+hxloop@gmail.com.com
+    web: https://www.hxloop.com
+    twitter: https://twitter.com/gauravkeshre
+    description: "I develop iOS Apps. Swift | ObjC"
 
 # Plugins
 plugins: 
